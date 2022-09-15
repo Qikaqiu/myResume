@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font: 14px/1.8 Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "WenQuanYi Micro Hei", sans-serif;
+  background-color: #dedede;
+  color: #333;
+}
+
+#wrap {
+  max-width: 790px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 65px 45px;
+}
+
+.lighter {
+  color: #ccc;
+}
+
+section:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section h2 {
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+section h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+section h4 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+section .intro {
+  color: #ccc;
+}
+
+section .detail {
+  padding-bottom: 10px;
+}
+
+.personal .name {
+  float: left;
+  width: 65%;
+}
+
+.personal .contacts {
+  float: left;
+  width: 35%;
+}
+
+.personal .circle {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 160px;
+  background-image: url(./pic.jpg);
+  background-size: 160px;
+  border-radius: 50%;
+}
+
+.personal .name h1 {
+  font-size: 44px;
+  font-weight: normal;
+  margin-left: 190px;
+}
+
+.personal .name p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 190px;
+}
+
+.personal .contacts dt {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 4px solid #333;
+  margin-bottom: 10px;
+}
+
+.personal .contacts strong {
+  margin-right: 10px;
+}
+
+.experience li,
+.education li,
+.skills li {
+  border-left: 2px solid #333;
+  padding-left: 76px;
+  position: relative;
+}
+
+.experience li:before,
+.education li::before,
+.skills li:before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  display: inline-block;
+  top: 10px;
+  width: 8px;
+  border-radius: 50%;
+  height: 8px;
+  background-color: #333;
+}
