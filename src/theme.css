@@ -75,7 +75,12 @@ section .detail {
   width: 160px;
   height: 160px;
   background-image: url(./pic.jpg);
-  background-size: 160px;
+  /* 背景图不平铺 */
+  background-repeat: no-repeat;
+  /* 让背景图基于容器大小伸缩 */
+  background-size: cover;
+  /* 设置背景颜色，背景图加载过程中会显示背景色 */
+  background-color: #464646;
   border-radius: 50%;
 }
 
