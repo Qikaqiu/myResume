@@ -22,6 +22,18 @@ body {
   padding: 65px 45px;
 }
 
+.downloadBtn {
+  position: relative;
+  top: -20px;
+  left: 550px;
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #fff, #e6e6e6);
+  box-shadow: 4px 4px 8px #d9d9d9, -4px -4px 8px #fff;
+  background-color: #ccc;
+}
+
 .lighter {
   color: #ccc;
 }
