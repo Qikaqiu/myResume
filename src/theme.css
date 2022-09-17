@@ -18,26 +18,40 @@ body {
 #wrap {
   max-width: 790px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #ebecf0;
   padding: 65px 45px;
 }
 
 #downloadBtn {
   position: relative;
+  float: right;
   top: -20px;
-  left: 550px;
   width: 150px;
   height: 25px;
   text-align: center;
   font-size: 0.9rem;
   border-radius: 5px;
   background: linear-gradient(145deg, #fff, #e6e6e6);
-  box-shadow: 4px 4px 8px #d9d9d9, -4px -4px 8px #fff;
+  box-shadow: 4px 4px 8px #babecc, -4px -4px 8px #fff;
   background-color: #ccc;
+  transition: all 0.2s ease-in-out;
 }
 
 #downloadBtn::before {
   content: "DOWNLOAD AS PDF";
+  /* 字体渐变色 */
+  background-image: linear-gradient(#17b195, #2888bb, #a5c2e3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#downloadBtn:hover {
+  box-shadow: 2px 2px 4px #d9d9d9, -2px -2px 4px #fff;
+}
+
+#downloadBtn:active {
+  box-shadow: inset 1px 1px 2px #ccc, inset -1px -1px 2px #fff;
 }
 
 #downloadBtn a {
