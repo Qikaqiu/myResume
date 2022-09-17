@@ -22,16 +22,32 @@ body {
   padding: 65px 45px;
 }
 
-.downloadBtn {
+#downloadBtn {
   position: relative;
   top: -20px;
   left: 550px;
   width: 150px;
   height: 25px;
+  text-align: center;
+  font-size: 0.9rem;
   border-radius: 5px;
   background: linear-gradient(145deg, #fff, #e6e6e6);
   box-shadow: 4px 4px 8px #d9d9d9, -4px -4px 8px #fff;
   background-color: #ccc;
+}
+
+#downloadBtn::before {
+  content: "DOWNLOAD AS PDF";
+}
+
+#downloadBtn a {
+  display: block;
+  /* text-indent: -9999px; */
+  opacity: 0;
+  margin-top: -25px;
+  overflow: hidden;
+  width: 150px;
+  height: 25px;
 }
 
 .lighter {
