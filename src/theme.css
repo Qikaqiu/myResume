@@ -151,6 +151,7 @@ section .detail {
 
 .experience li,
 .education li,
+.schoolExp li,
 .skills li {
   border-left: 2px solid #333;
   padding-left: 76px;
@@ -159,6 +160,7 @@ section .detail {
 
 .experience li:before,
 .education li::before,
+.schoolExp li::before,
 .skills li:before {
   content: "";
   position: absolute;
@@ -169,4 +171,9 @@ section .detail {
   border-radius: 50%;
   height: 8px;
   background-color: #333;
+}
+
+.campusExp li {
+  padding-left: 76px;
+  position: relative;
 }
