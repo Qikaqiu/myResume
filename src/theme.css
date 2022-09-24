@@ -16,10 +16,10 @@ body {
 }
 
 #wrap {
-  max-width: 790px;
+  max-width: 65vw;
   margin: 0 auto;
   background-color: #ebecf0;
-  padding: 65px 45px;
+  padding: 65px 3vw;
 }
 
 #downloadBtn {
@@ -83,7 +83,7 @@ section h2 {
   width: 40%;
 }
 
-section .test {
+.test {
   font-size: 1.1rem;
   font-weight: normal;
 }
@@ -156,6 +156,14 @@ section .detail {
   border-left: 2px solid #333;
   padding-left: 76px;
   position: relative;
+}
+
+.experience,
+.education,
+.schoolExp,
+.skills,
+.campusExp {
+  width: 60vw;
 }
 
 .experience li:before,
