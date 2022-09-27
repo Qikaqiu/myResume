@@ -17,7 +17,7 @@ body {
 }
 
 #wrap {
-  max-width: 60vw;
+  max-width: 720px;
   margin: 0 auto;
   background-color: #ebecf0;
   padding: 65px 3vw;
@@ -138,6 +138,7 @@ section .detail {
 }
 
 .personal .name p {
+  width: auto;
   font-size: 18px;
   font-weight: bold;
   margin-left: 190px;
@@ -154,9 +155,6 @@ section .detail {
   margin-right: 10px;
 }
 
-p {
-  width: 90%;
-}
 .experience li,
 .education li,
 .schoolExp li,
@@ -171,7 +169,7 @@ p {
 .schoolExp,
 .skills,
 .campusExp {
-  width: 60vw;
+  width: 730px;
 }
 
 .experience li:before,
