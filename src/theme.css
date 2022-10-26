@@ -21,6 +21,7 @@ body {
   margin: 0 auto;
   background-color: #ebecf0;
   padding: 65px 3vw;
+  box-shadow: 4px 4px 8px #babecc;
 }
 
 #downloadBtn {
